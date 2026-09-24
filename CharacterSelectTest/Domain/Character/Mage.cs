@@ -11,5 +11,15 @@ public sealed class Mage : Entity.Character
         Strength = 4;
         Intelligence = 16;
         Agility = 10;
+        Crit_chance = 10;
+        Crit_dmg = 40;
+    }
+    public int Attack()
+    {
+        return Intelligence * 3;
+    }
+    public string SpecialAbility()
+    {
+        return "Mage casts thunderbolt at enemies";
     }
 }

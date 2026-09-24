@@ -1,6 +1,6 @@
 using CharacterSelectTest.Domain.Enum;
 
-namespace CharacterSelectTest.Tests.Domain.Enum;
+namespace CharacterSelectTest.Tests.Domain.Characters;
 
 [TestClass]
 public class CharacterClassTest
